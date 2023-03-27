@@ -1,0 +1,14 @@
+/* Flex */
+@mixin flex($justify-content) {
+  display: flex;
+  justify-content: $justify-content;
+}
+
+@mixin flex-direction($direction) {
+  flex-direction: $direction;
+}
+
+@mixin flex-align($align) {
+  align-items: $align;
+}
+

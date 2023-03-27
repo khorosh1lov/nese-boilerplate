@@ -1,0 +1,11 @@
+/* Normalize */
+@import '~normalize.css';
+
+/* Sass imports */
+@import './scss/@mixins';
+@import './scss/vars';
+@import './scss/fonts';
+@import './scss/global';
+
+/* Pages */
+@import './scss/pages/home';

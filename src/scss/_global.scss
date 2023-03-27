@@ -1,0 +1,64 @@
+html, 
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.no-scroll {
+  overflow: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span {
+    margin: 0 0 $gap;
+}
+
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6 {
+    font-family: $font-headline;
+}
+
+p,
+a,
+span {
+    font-family: $font-main;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.wrapper {
+    @include flex(center);
+    @include flex-direction(column);
+    min-height: 100%;
+}
+
+.container {
+    width: calc(100% - $gap * 2);
+    margin: auto;
+    padding: 0 $gap;
+}
+
+main {
+    @include flex(center);
+  flex-grow: 1;
+}
+
+/* Tablets */
+@media (min-width: $tablet-size) {}
+
+/* Desktop */
+@media (min-width: $desktop-size) {}
